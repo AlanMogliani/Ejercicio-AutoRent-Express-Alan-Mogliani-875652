@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio_AutoRent_Express_Alan_Mogliani_875652
 {
-    partial class Form1
+    partial class AsignacionVehiculo : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -66,7 +66,6 @@
             // 
             // textBox7
             // 
-            textBox7.Enabled = false;
             textBox7.Location = new Point(111, 29);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(194, 23);
@@ -273,7 +272,7 @@
             textBox8.Size = new Size(46, 23);
             textBox8.TabIndex = 66;
             // 
-            // Form1
+            // AsignacionVehiculo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -303,7 +302,7 @@
             Controls.Add(textBox7);
             Controls.Add(label20);
             Controls.Add(ASD);
-            Name = "Form1";
+            Name = "AsignacionVehiculo";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();

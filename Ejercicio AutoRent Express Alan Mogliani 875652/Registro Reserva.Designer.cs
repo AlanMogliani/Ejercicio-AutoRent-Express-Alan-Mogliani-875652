@@ -1,6 +1,6 @@
 ﻿namespace Ejercicio_AutoRent_Express_Alan_Mogliani_875652
 {
-    partial class RegistroReserva
+    partial class RegistroReserva : Form
     {
         /// <summary>
         ///  Required designer variable.

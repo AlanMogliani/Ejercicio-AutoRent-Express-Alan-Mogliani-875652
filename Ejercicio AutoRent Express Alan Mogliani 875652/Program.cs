@@ -12,6 +12,8 @@ namespace Ejercicio_AutoRent_Express_Alan_Mogliani_875652
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new RegistroReserva());
+            Application.Run(new AsignacionVehiculo());
+            Application.Run(new RevisionVehiculo());
         }
     }
 }
