@@ -235,7 +235,6 @@
             button1.TabIndex = 80;
             button1.Text = "ACEPTAR";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += this.button1_Click;
             // 
             // button2
             // 

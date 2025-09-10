@@ -11,9 +11,12 @@ namespace Ejercicio_AutoRent_Express_Alan_Mogliani_875652
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+            Application.Run(new AccesoSistema());
             Application.Run(new RegistroReserva());
             Application.Run(new AsignacionVehiculo());
             Application.Run(new RevisionVehiculo());
+            Application.Run(new FacturacionClientes());
+            Application.Run(new ModuloConsulta());          
         }
     }
 }
